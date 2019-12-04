@@ -3,16 +3,169 @@ body {
   margin: 0;
   background-color: #00753F;
 }
+.text-title {
+  font-family: 'Gotham Pro Regular';
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+}
+.block {
+  position: relative;
+}
+/* nav */
 .navigation {
-  padding-top: 35px
+  padding: 35px 0;
+}
+.navigation-logo>img {
+  width: 185px;
 }
 .navigation-menu>ul {
   display: flex;
 }
 .navigation-menu>ul>li {
   list-style: none;
-  padding: 10px;
+  padding: 0 10px;
 }
 .navigation-menu>ul>li>a {
   color: #fff;
 }
+/* nav */
+
+/* main */
+.main {
+  position: relative;
+  height: 470px;
+  color: #fff;
+}
+.figure1 {
+  position: absolute;
+  max-width: 660px;
+  max-width: 660px;
+  width: 100%;
+  max-height: 400px;
+  height: 100%;
+  background: url(../img/form1.png) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  top: -62px;
+  left: -119px;
+}
+.main-left-block {
+  position: absolute;
+}
+.main-left-block>img {
+  height: 477px;
+  z-index: 10;
+}
+.danon {
+  position: absolute;
+  height: 150px!important;
+  bottom: 22px;
+  left: 162px;
+}
+.main-center-block {
+  width: 500px;
+  margin: 0 auto;
+}
+.main-center-block__img {
+  text-align: center;
+}
+.main-center-block__img>img {
+  height: 200px;
+}
+.main-center-block__text {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 43px;
+}
+.main-right-block {
+  max-width: 400px;
+  width: 100%;
+  position: absolute;
+  transform: rotate(-5deg);
+  top: 0;
+  right: 0;
+}
+.main-right-block::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 41px;
+  background: url(../img/line.png) center no-repeat;
+  background-size: 211px;
+  transform: rotate(3deg);
+  top: 27px;
+}
+.main-center-block__prize {
+  margin: 16px 0;
+  padding-left: 60px;
+}
+.main-center-block__prize>img {
+  width: 70px;
+  border-radius: 100%;
+}
+.main-center-block__prize__text {
+  margin-left: 14px;
+}
+/* main */
+
+/* participation */
+.participation {
+  padding: 50px 0;
+  background: url(../img/bg-user.png) center no-repeat;
+  background-position-y: 0;
+  color: #fff;
+  height: 400px;
+}
+.participation-title {
+  margin: 60px 0;
+  text-align: center;
+}
+.participation-block {
+  text-align:  center;
+}
+/* participation */
+/* exchange */
+.exchange {
+  background: rgba(13,54,35,1);
+  background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
+  background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  padding: 3rem 0;
+  color: #fff;
+}
+.exchange-title {
+  margin-bottom: 3rem;
+}
+.exchange-table {
+  margin: 0 auto;
+}
+.exchange-table>tbody>tr>td {
+  padding: 20px;
+}
+/* exchange */
+/* questions */
+.questions {
+  padding: 3rem 0;
+  background-color: #fff;
+}
+.questions-title {
+  margin-bottom: 3rem;
+}
+.btn-link {
+  color:#00753F!important;
+}
+.card-header {
+  background-color: #fff!important;
+  border-bottom: 0!important;
+  padding: .175rem 1.25rem!important;
+}
+.card-body {
+  padding: 10px 50px!important;
+}
+/* questions */
