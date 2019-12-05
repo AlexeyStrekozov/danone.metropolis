@@ -74,6 +74,7 @@ body {
   color: #fff;
 }
 .figure1 {
+  display: none;
   position: absolute;
   max-width: 660px;
   max-width: 660px;
@@ -88,7 +89,7 @@ body {
 }
 .main-left-block {
   position: absolute;
-  left: 0;
+  left: -20px;
 }
 .main-left-block>img {
   height: 510px;
@@ -108,7 +109,7 @@ body {
   text-align: center;
 }
 .main-center-block__img>img {
-  height: 240px;
+  height: 280px;
 }
 .main-center-block__text {
   text-align: center;
@@ -152,6 +153,7 @@ body {
   padding-left: 70px;
 }
 .main-center-block__prize>img {
+  cursor: pointer;
   width: 100px;
   border-radius: 100%;
 }
@@ -266,3 +268,11 @@ body {
   margin-top: 20px;
 }
 /* footer */
+.positionAbsolute {
+  position: absolute;
+  width: 300px!important;
+  height: 300px;
+  background-color: white;
+  top: 30%;
+  right: 20%;
+}
