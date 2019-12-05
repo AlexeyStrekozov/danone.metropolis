@@ -1,7 +1,13 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #00753F;
+  background: rgba(13,54,35,1);
+  background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
+  background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
 }
 .text-title {
   font-family: 'Gotham Pro Regular';
@@ -36,8 +42,20 @@ body {
     list-style: none;
     padding: 0 10px;
   }
+
   .navigation-menu>ul>li>a {
     color: #fff;
+    font-family: 'Gotham Pro Regular';
+    text-decoration: dotted;
+    text-shadow:0 0 10px #000;
+    transition: 0.2s;
+
+  }
+  .navigation-menu>ul>li>a:hover {
+    -moz-text-shadow:0 0 20px #29ff98;
+    -webkit-text-shadow:0 0 20px #29ff98;
+     text-shadow:0 0 20px #29ff98;
+     color: #29ff98;
   }
 /* nav */
 
@@ -89,8 +107,14 @@ body {
   font-size: 24px;
   margin-bottom: 43px;
 }
+.main-right-block__text{
+  text-align: right;
+  font-size: 24px;
+  margin-bottom: 43px;
+  margin-right: 45px;
+}
 .main-right-block {
-  max-width: 400px;
+  max-width: 410px;
   width: 100%;
   position: absolute;
   transform: rotate(-5deg);
@@ -106,10 +130,18 @@ body {
   background-size: 211px;
   transform: rotate(3deg);
   top: 27px;
+  background-position-x: 176px;
 }
 .main-center-block__prize {
   margin: 16px 0;
-  padding-left: 60px;
+  padding-left: 30px;
+}
+.main-center-block__prize__1{
+
+  padding-left: 105px;
+}
+.main-center-block__prize__2{
+  padding-left: 70px;
 }
 .main-center-block__prize>img {
   width: 70px;
@@ -147,13 +179,13 @@ body {
 /* participation */
 /* exchange */
 .exchange {
-  background: rgba(13,54,35,1);
-  background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
-  background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: rgba(10,66,39,1);
+  background: -moz-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,66,39,1)), color-stop(100%, rgba(0,117,63,1)));
+  background: -webkit-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
+  background: -o-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
+  background: -ms-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
+  background: linear-gradient(to bottom, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   padding: 3rem 0;
   color: #fff;
 }
@@ -188,3 +220,37 @@ body {
   padding: 10px 50px!important;
 }
 /* questions */
+/* footer */
+.footer {
+  background: rgba(13,54,35,1);
+  background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
+  background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  padding: 30px 0;
+}
+.footer-regulations__link {
+  text-align: center;
+}
+.footer-regulations__link>a {
+  font-size: 18px;
+  color: #29ff98;
+  font-family: 'Gotham Pro Regular';
+  text-decoration: dotted;
+  border-bottom: 4px dotted #29ff98;
+  text-shadow:0 0 10px #000;
+  transition: 0.2s;
+}
+.footer-regulations__link>a:hover {
+  -moz-text-shadow:0 0 40px #fff;
+  -webkit-text-shadow:0 0 40px #fff;
+   text-shadow:0 0 40px #fff;
+   color: #fff;
+   border-bottom: 4px dotted #fff;
+}
+.footer-regulations__link__phone {
+  margin-top: 20px;
+}
+/* footer */
