@@ -11,4 +11,6 @@
     }
     scroll("#btnQuestions");
     scroll("#btnParticipation");
+    scroll("#btnExchange");
+    scroll("#btnRegulations");
   });
