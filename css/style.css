@@ -6,7 +6,7 @@ body {
 .text-title {
   font-family: 'Gotham Pro Regular';
   font-weight: bold;
-  font-size: 34px;
+  font-size: 30px;
   line-height: 1.2;
   text-align: center;
   display: block;
@@ -14,23 +14,31 @@ body {
 .block {
   position: relative;
 }
+.gold {
+  display: block;
+  font-family: 'Gotham Pro Black';
+  font-size: 30px;
+  background: linear-gradient(to top right, #E0AC5F 0%, #FEE3B3 50%, #E0AC5F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* nav */
-.navigation {
-  padding: 35px 0;
-}
-.navigation-logo>img {
-  width: 185px;
-}
-.navigation-menu>ul {
-  display: flex;
-}
-.navigation-menu>ul>li {
-  list-style: none;
-  padding: 0 10px;
-}
-.navigation-menu>ul>li>a {
-  color: #fff;
-}
+  .navigation {
+    padding: 35px 0;
+  }
+  .navigation-logo>img {
+    width: 185px;
+  }
+  .navigation-menu>ul {
+    display: flex;
+  }
+  .navigation-menu>ul>li {
+    list-style: none;
+    padding: 0 10px;
+  }
+  .navigation-menu>ul>li>a {
+    color: #fff;
+  }
 /* nav */
 
 /* main */
@@ -54,9 +62,10 @@ body {
 }
 .main-left-block {
   position: absolute;
+  left: 0;
 }
 .main-left-block>img {
-  height: 477px;
+  height: 510px;
   z-index: 10;
 }
 .danon {
@@ -73,7 +82,7 @@ body {
   text-align: center;
 }
 .main-center-block__img>img {
-  height: 200px;
+  height: 240px;
 }
 .main-center-block__text {
   text-align: center;
@@ -86,7 +95,7 @@ body {
   position: absolute;
   transform: rotate(-5deg);
   top: 0;
-  right: 0;
+  right: -40px;
 }
 .main-right-block::before{
   position: absolute;
@@ -117,7 +126,7 @@ body {
   background: url(../img/bg-user.png) center no-repeat;
   background-position-y: 0;
   color: #fff;
-  height: 400px;
+  padding-top: 120px;
 }
 .participation-title {
   margin: 60px 0;
@@ -125,6 +134,15 @@ body {
 }
 .participation-block {
   text-align:  center;
+}
+.participation-block__img>img {
+  width: 160px;
+}
+.participation-block__text {
+  font-family: 'Gotham Pro Regular';
+  width: 200px;
+  margin: 20px auto;
+  text-transform: uppercase;
 }
 /* participation */
 /* exchange */
@@ -144,6 +162,7 @@ body {
 }
 .exchange-table {
   margin: 0 auto;
+  border: 2px solid rgb(41, 255, 152);
 }
 .exchange-table>tbody>tr>td {
   padding: 20px;
