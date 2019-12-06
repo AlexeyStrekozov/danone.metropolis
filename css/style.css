@@ -89,7 +89,7 @@ body {
 }
 .main-left-block {
   position: absolute;
-  left: -20px;
+  left: -100px;
 }
 .main-left-block>img {
   height: 510px;
