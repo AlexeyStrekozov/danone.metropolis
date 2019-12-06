@@ -1,13 +1,18 @@
 body {
   padding: 0;
   margin: 0;
-  background: rgba(13,54,35,1);
-  background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background-blend-mode: multiply;
+  /* background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
   background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%); */
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url(../img/main-bk.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
 }
 .text-title {
   font-family: 'Gotham Pro Regular';
@@ -69,6 +74,7 @@ body {
 
 /* main */
 .main {
+  background: ;
   position: relative;
   height: 470px;
   color: #fff;
