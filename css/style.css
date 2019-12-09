@@ -8,10 +8,9 @@ body {
   background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%); */
-  background: rgba(0, 0, 0, 0.3);
-  background-image: url(../img/main-bk.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url(../img/main-bk2.jpg);
+  /* background-repeat: no-repeat; */
 }
 .footnote {
   font-family: 'Gotham Pro Black';
@@ -180,10 +179,18 @@ body {
 /* participation */
 .participation {
   padding: 50px 0;
-  background: url(../img/bg-user.png) center no-repeat;
-  background-position-y: 0;
+  /* background: url(../img/bg-user.png) center no-repeat; */
+  /* background-position-y: 0; */
+  background-blend-mode: multiply;
+  /* background: rgba(0, 0, 0, 0.3); */
+  /* background-image: url(../img/main-bk.jpg); */
+  /* background-repeat: no-repeat;
+  background-position: top; */
+  padding: 5rem 0;
+  color: #fff;
   color: #fff;
   padding-top: 120px;
+  border-top: 1px solid #094a20;
 }
 .participation-title {
   margin: 60px 0;
@@ -211,11 +218,11 @@ body {
   background: -o-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   background: -ms-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   background: linear-gradient(to bottom, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%); */
-  background-blend-mode: multiply;
-  background: rgba(0, 0, 0, 0.3);
-  background-image: url(../img/main-bk.jpg);
+  /* background-blend-mode: multiply; */
+  /* background: rgba(0, 0, 0, 0.3); */
+  /* background-image: url(../img/main-bk.jpg);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top; */
   padding: 5rem 0;
   color: #fff;
 }
@@ -259,13 +266,19 @@ body {
 /* questions */
 /* footer */
 .footer {
-  background: rgba(13,54,35,1);
+  /* background: rgba(13,54,35,1);
   background: -moz-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(13,54,35,1)), color-stop(100%, rgba(0,117,62,1)));
   background: -webkit-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
-  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
+  background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%); */
+  /* background-blend-mode: multiply;
+  background-image: url(../img/main-bk.jpg);
+  background-repeat: no-repeat;
+  background-position: top; */
+  padding: 5rem 0;
+  color: #fff;
   padding: 30px 0;
 }
 .footer-regulations__link {
