@@ -204,13 +204,18 @@ body {
 /* participation */
 /* exchange */
 .exchange {
-  background: rgba(10,66,39,1);
+  /* background: rgba(10,66,39,1);
   background: -moz-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,66,39,1)), color-stop(100%, rgba(0,117,63,1)));
   background: -webkit-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   background: -o-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
   background: -ms-linear-gradient(top, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
-  background: linear-gradient(to bottom, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%);
+  background: linear-gradient(to bottom, rgba(10,66,39,1) 0%, rgba(0,117,63,1) 100%); */
+  background-blend-mode: multiply;
+  background: rgba(0, 0, 0, 0.3);
+  background-image: url(../img/main-bk.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
   padding: 5rem 0;
   color: #fff;
 }
