@@ -8,11 +8,18 @@ body {
   background: -o-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: -ms-linear-gradient(top, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%);
   background: linear-gradient(to bottom, rgba(13,54,35,1) 0%, rgba(0,117,62,1) 100%); */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   background-image: url(../img/main-bk.jpg);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+}
+.footnote {
+  font-family: 'Gotham Pro Black';
+  background: linear-gradient(to top right, #E0AC5F 0%, #FEE3B3 50%, #E0AC5F 100%);
+  font-size: 10px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 40px auto;
 }
 .text-title {
   font-family: 'Gotham Pro Regular';
@@ -21,6 +28,9 @@ body {
   line-height: 1.2;
   text-align: center;
   display: block;
+}
+#btnProd {
+  color: #fff;
 }
 .phone {
   font-size: 18px;
@@ -74,7 +84,6 @@ body {
 
 /* main */
 .main {
-  background: ;
   position: relative;
   height: 470px;
   color: #fff;
@@ -115,7 +124,7 @@ body {
   text-align: center;
 }
 .main-center-block__img>img {
-  height: 280px;
+  height: 200px;
 }
 .main-center-block__text {
   text-align: center;
@@ -211,10 +220,10 @@ body {
 .exchange-table {
   margin: 0 auto;
   border: 2px solid rgba(41, 255, 152);
-  background-color: rgba(41, 255, 152, 0.3);
-  -webkit-box-shadow: 0px 0px 75px 7px rgba(41,255,152,1);
+  /* background-color: rgba(41, 255, 152, 0.3); */
+  /* -webkit-box-shadow: 0px 0px 75px 7px rgba(41,255,152,1);
   -moz-box-shadow: 0px 0px 75px 7px rgba(41,255,152,1);
-  box-shadow: 0px 0px 75px 7px rgba(41,255,152,1);
+  box-shadow: 0px 0px 75px 7px rgba(41,255,152,1); */
 }
 .exchange-table>tbody>tr>td {
   padding: 20px;
@@ -238,6 +247,9 @@ body {
 }
 .card-body {
   padding: 10px 50px!important;
+}
+.exchange-table__question>tbody>tr>td {
+  padding: 5px;
 }
 /* questions */
 /* footer */
