@@ -39,6 +39,7 @@
     display: none;
   }
   .menu-block {
+    display: flex;
     height: auto;
   }
   .menu-btn {

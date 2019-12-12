@@ -355,7 +355,7 @@ body {
 .menu-block {
   height: 0;
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
