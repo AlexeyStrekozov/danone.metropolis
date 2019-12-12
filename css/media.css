@@ -71,11 +71,11 @@
   }
   .main-right-block{transform: rotate(0deg);}
   .main-right-block::before{display: none;}
-  .main-center-block__prize{text-align: center;}
+  .main-center-block__prize{text-align: center; display: block;}
   .main-center-block__prize__1{padding-left: 0;}
   .main-center-block__prize__2{padding-left: 0;}
-  .main-center-block__prize>img{margin: 0 auto;}
-  .main-center-block__prize__text{margin: 0 auto;}
+  .main-center-block__prize>img{margin: 0 auto; display: block;}
+  .main-center-block__prize__text{margin: 0 auto; display: block;}
   .footnote{text-align: center;}
   .exchange{display: none;}
   .phone{display: block;}
@@ -96,4 +96,5 @@
   }
   .btn{width: 100%}
   #btnExchange{display: none!important;}
+  .main-right-block__text{text-align: center; margin: 0;}
 }
