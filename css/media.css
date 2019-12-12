@@ -1,0 +1,99 @@
+@media (max-width: 1100px) {
+  .gold {font-size: 27px;}
+  /* MAIN */
+  .main {
+    height: auto;
+  }
+  .main-center-block__img>img {
+    height: 150px;
+  }
+  .main-left-block {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    text-align: center;
+  }
+  .main-left-block>img {
+    height: 418px;
+    left: 0;
+  }
+  .main-right-block {
+    position: relative;
+    margin: 0 auto;
+    right: 0;
+  }
+  /* MAIN */
+  /* participation */
+  .participation {
+    padding: 20px 0;
+  }
+  /* participation */
+  /* exchange */
+  .exchange {padding: 2rem 0;}
+  /* exchange */
+}
+
+@media (max-width: 992px) {
+  .gold {font-size: 21px;}
+  .navigation-menu {
+    display: none;
+  }
+  .menu-block {
+    height: auto;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .participation-block__img>img {
+    width: 122px;
+  }
+  .participation-block__text {
+    width: 122px;
+    font-size: 15px;
+  }
+  .exchange {padding: 10px 0;}
+  .text-title{font-size: 25px;}
+  .exchange-title{margin: 2rem;}
+  .exchange-table>tbody>tr>td{padding: 5px}
+}
+@media (max-width: 576px) {
+  .navigation{padding:35px 18px; }
+  .navigation-logo>img{width: 143px;}
+  .menu-block{
+    position: absolute;
+    right: 18px
+  }
+  .main-left-block>img{
+    height: 279px;
+  }
+  .main-center-block{
+    width: 100%
+  }
+  .main-right-block{transform: rotate(0deg);}
+  .main-right-block::before{display: none;}
+  .main-center-block__prize{text-align: center;}
+  .main-center-block__prize__1{padding-left: 0;}
+  .main-center-block__prize__2{padding-left: 0;}
+  .main-center-block__prize>img{margin: 0 auto;}
+  .main-center-block__prize__text{margin: 0 auto;}
+  .footnote{text-align: center;}
+  .exchange{display: none;}
+  .phone{display: block;}
+  .positionAbsolute{
+    position: absolute;
+    width: 200px!important;
+    height: 200px;
+    background-color: white;
+    right: 17%;
+    top: 45%;
+  }
+  .card-body{
+    padding: 10px!important;
+    text-align: center;
+  }
+  .exchange-table__question > tbody > tr > td {
+    display: block;
+  }
+  .btn{width: 100%}
+  #btnExchange{display: none!important;}
+}
